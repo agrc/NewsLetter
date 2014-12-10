@@ -12,7 +12,7 @@ module.exports = function(grunt) {
                 options: {
                     livereload: true
                 },
-                tasks: ['uncss:dist', 'inline:dist', 'copy:main']
+                tasks: ['uncss:dist', 'inline:dist', 'copy:main', 'compress:main', 'copy:host']
             }
         },
         copy: {
@@ -24,6 +24,10 @@ module.exports = function(grunt) {
                     dest: 'dist/',
                     filter: 'isFile'
                 }]
+            },
+            host: {
+                src: 'dist.zip',
+                dest: 'Z:\\Documents\\dist.zip'
             }
         },
         compress: {
@@ -102,6 +106,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('publish', [
         'compress:main',
+        'copy:host',
         'gh-pages'
     ]);
 };
