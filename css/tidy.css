@@ -1,22 +1,16 @@
-/*table, th, td {
-   border: 1px solid black;
-}*/
+a:link {
+  text-decoration: none;
+  color: #00898B;
+  font-size: 14px;
+  font-family: arial, helvetica, sans-serif;
+}
 
-/*a:link {
-    color: #00898B;
-}
 a:visited {
-    color: #00898B;
+  text-decoration: none;
+  color: #00898B;
+  font-size: 14px;
+  font-family: arial, helvetica, sans-serif;
 }
-a:hover {
-    color: #006C79;
-}
-a:active {
-    color: #00898B;
-}
-a {
-    text-decoration: none;
-}*/
 
 a img {
   border: none;
@@ -76,13 +70,6 @@ img {
   color: #333333;
   font-size: 18px;
   font-weight: 700;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
-.article-subheader {
-  text-decoration: none;
-  color: #333333;
-  font-size: 18px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
