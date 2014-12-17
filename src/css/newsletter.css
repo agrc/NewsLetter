@@ -1,3 +1,15 @@
+a:link {
+    text-decoration: none;
+    color: #00898B;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+}
+a:visited {
+    text-decoration: none;
+    color: #00898B;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+}
 a img {
     border: none;
 }
